@@ -1,113 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="15" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-29T14:52:38 IST" name="Suite" finished-at="2022-07-29T14:54:10 IST" duration-ms="91706">
+  <suite started-at="2022-08-04T11:36:11 IST" name="Default suite" finished-at="2022-08-04T11:36:32 IST" duration-ms="21130">
     <groups>
     </groups>
-    <test started-at="2022-07-29T14:52:38 IST" name="Test" finished-at="2022-07-29T14:54:10 IST" duration-ms="91706">
-      <class name="TestClass.ForgotPassTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.ForgotPassTest@10959ece]" started-at="2022-07-29T14:52:55 IST" name="setup" finished-at="2022-07-29T14:52:59 IST" duration-ms="3976" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="ValidateForgotpassTest()[pri:0, instance:TestClass.ForgotPassTest@10959ece]" started-at="2022-07-29T14:52:59 IST" name="ValidateForgotpassTest" finished-at="2022-07-29T14:53:04 IST" duration-ms="4512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ValidateForgotpassTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.ForgotPassTest@10959ece]" started-at="2022-07-29T14:53:04 IST" name="teardown" finished-at="2022-07-29T14:53:04 IST" duration-ms="178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- TestClass.ForgotPassTest -->
+    <test started-at="2022-08-04T11:36:11 IST" name="Default test" finished-at="2022-08-04T11:36:32 IST" duration-ms="21130">
       <class name="TestClass.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:52:38 IST" name="loadConfig" finished-at="2022-07-29T14:52:38 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:11 IST" name="loadConfig" finished-at="2022-08-04T11:36:11 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:52:38 IST" name="setup" finished-at="2022-07-29T14:52:43 IST" duration-ms="4865" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:11 IST" name="setup" finished-at="2022-08-04T11:36:19 IST" duration-ms="7986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ValidateTitleTest()[pri:1, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:52:43 IST" name="ValidateTitleTest" finished-at="2022-07-29T14:52:43 IST" duration-ms="37" status="PASS">
+        <test-method signature="ValidateTitleTest()[pri:1, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:19 IST" name="ValidateTitleTest" finished-at="2022-08-04T11:36:19 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:52:43 IST" name="tearDown" finished-at="2022-07-29T14:52:43 IST" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:19 IST" name="tearDown" finished-at="2022-08-04T11:36:19 IST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:52:43 IST" name="setup" finished-at="2022-07-29T14:52:47 IST" duration-ms="3863" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:19 IST" name="setup" finished-at="2022-08-04T11:36:24 IST" duration-ms="4570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="ValidateLoginCredinatilTest()[pri:2, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:52:47 IST" name="ValidateLoginCredinatilTest" finished-at="2022-07-29T14:52:55 IST" duration-ms="7571" status="PASS">
+        <test-method signature="ValidateLoginCredinatilTest()[pri:2, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:24 IST" name="ValidateLoginCredinatilTest" finished-at="2022-08-04T11:36:32 IST" duration-ms="7833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLoginCredinatilTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:52:55 IST" name="tearDown" finished-at="2022-07-29T14:52:55 IST" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:32 IST" name="tearDown" finished-at="2022-08-04T11:36:32 IST" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestClass.LoginPageTest@68c72235]" started-at="2022-07-29T14:54:10 IST" name="afterSuite" finished-at="2022-07-29T14:54:10 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestClass.LoginPageTest@7690781]" started-at="2022-08-04T11:36:32 IST" name="afterSuite" finished-at="2022-08-04T11:36:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- TestClass.LoginPageTest -->
-      <class name="TestClass.Admin_JobPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.Admin_JobPageTest@65f095f8]" started-at="2022-07-29T14:53:45 IST" name="setup" finished-at="2022-07-29T14:53:55 IST" duration-ms="9859" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyAddJobTest()[pri:1, instance:TestClass.Admin_JobPageTest@65f095f8]" started-at="2022-07-29T14:53:55 IST" name="verifyAddJobTest" finished-at="2022-07-29T14:54:10 IST" duration-ms="15247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAddJobTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.Admin_JobPageTest@65f095f8]" started-at="2022-07-29T14:54:10 IST" name="teardown" finished-at="2022-07-29T14:54:10 IST" duration-ms="186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- TestClass.Admin_JobPageTest -->
-      <class name="TestClass.AdminpageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.AdminpageTest@34f7cfd9]" started-at="2022-07-29T14:53:17 IST" name="setup" finished-at="2022-07-29T14:53:28 IST" duration-ms="10749" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_AdminPage()[pri:1, instance:TestClass.AdminpageTest@34f7cfd9]" started-at="2022-07-29T14:53:28 IST" name="Verify_AdminPage" finished-at="2022-07-29T14:53:32 IST" duration-ms="4269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_AdminPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.AdminpageTest@34f7cfd9]" started-at="2022-07-29T14:53:32 IST" name="teardown" finished-at="2022-07-29T14:53:32 IST" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.AdminpageTest@34f7cfd9]" started-at="2022-07-29T14:53:32 IST" name="setup" finished-at="2022-07-29T14:53:42 IST" duration-ms="10048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_admin_Add_buttonTest()[pri:2, instance:TestClass.AdminpageTest@34f7cfd9]" started-at="2022-07-29T14:53:42 IST" name="Verify_admin_Add_buttonTest" finished-at="2022-07-29T14:53:45 IST" duration-ms="2467" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_admin_Add_buttonTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.AdminpageTest@34f7cfd9]" started-at="2022-07-29T14:53:45 IST" name="teardown" finished-at="2022-07-29T14:53:45 IST" duration-ms="64" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- TestClass.AdminpageTest -->
-      <class name="TestClass.DashboardPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestClass.DashboardPageTest@3a6bb9bf]" started-at="2022-07-29T14:53:04 IST" name="setup" finished-at="2022-07-29T14:53:12 IST" duration-ms="8569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Verify_AdminPage()[pri:1, instance:TestClass.DashboardPageTest@3a6bb9bf]" started-at="2022-07-29T14:53:12 IST" name="Verify_AdminPage" finished-at="2022-07-29T14:53:17 IST" duration-ms="4619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_AdminPage -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestClass.DashboardPageTest@3a6bb9bf]" started-at="2022-07-29T14:53:17 IST" name="teardown" finished-at="2022-07-29T14:53:17 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- TestClass.DashboardPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
